@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>first</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>Hello</display-name>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>Hello</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/Hello</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>InsertStudentInfo</display-name>
+		<servlet-name>InsertStudentInfo</servlet-name>
+		<servlet-class>InsertStudentInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertStudentInfo</servlet-name>
+		<url-pattern>/InsertStudentInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>UpdateStudentInfo</display-name>
+		<servlet-name>UpdateStudentInfo</servlet-name>
+		<servlet-class>UpdateStudentInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateStudentInfo</servlet-name>
+		<url-pattern>/UpdateStudentInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>InsertBusInfo</display-name>
+		<servlet-name>InsertBusInfo</servlet-name>
+		<servlet-class>InsertBusInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertBusInfo</servlet-name>
+		<url-pattern>/InsertBusInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>UpdateBusInfo</display-name>
+		<servlet-name>UpdateBusInfo</servlet-name>
+		<servlet-class>UpdateBusInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateBusInfo</servlet-name>
+		<url-pattern>/UpdateBusInfo</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description></description>
+		<display-name>InsertParentsInfo</display-name>
+		<servlet-name>InsertParentsInfo</servlet-name>
+		<servlet-class>InsertParentsInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertParentsInfo</servlet-name>
+		<url-pattern>/InsertParentsInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>UpdateParentsInfo</display-name>
+		<servlet-name>UpdateParentsInfo</servlet-name>
+		<servlet-class>UpdateParentsInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateParentsInfo</servlet-name>
+		<url-pattern>/UpdateParentsInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>UpdateDriverLocation</display-name>
+		<servlet-name>UpdateDriverLocation</servlet-name>
+		<servlet-class>UpdateDriverLocation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateDriverLocation</servlet-name>
+		<url-pattern>/UpdateDriverLocation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>GetDriverLocation</display-name>
+		<servlet-name>GetDriverLocation</servlet-name>
+		<servlet-class>GetDriverLocation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetDriverLocation</servlet-name>
+		<url-pattern>/GetDriverLocation</url-pattern>
+	</servlet-mapping>
+</web-app>
