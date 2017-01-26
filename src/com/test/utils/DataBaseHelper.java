@@ -91,6 +91,7 @@ public class DataBaseHelper {
 
 	public static ResultSet getBusInfo() {
 		try {
+			
 			return c.createStatement().executeQuery("SELECT usn FROM CollegeInfo;");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
